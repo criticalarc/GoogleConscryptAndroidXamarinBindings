@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>Conscrypt.Conscrypt.Android</id>
+    <version>2.2.1</version>
+    <title>Conscrypt.Conscrypt.Android</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,google,conscrypt,tls,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <description>Google's Conscrypt Android binding for Xamarin. Note: This is an "EmbeddedReferenceJar". It will not generate any Android Callable Wrappers (ACW) and C# API.</description>
+    <summary>Google's Conscrypt Android binding for Xamarin. Note: This is an "EmbeddedReferenceJar". It will not generate any Android Callable Wrappers (ACW) and C# API.</summary>
+    <copyright>Copyright © Bandyer</copyright>
+    <projectUrl>https://github.com/Bandyer/GoogleConscryptAndroidXamarinBindings</projectUrl>
+    <dependencies>
+        <group targetFramework="MonoAndroid">
+        </group>
+    </dependencies>
+    </metadata>
+    <files>
+        <file src="./bin/Release/Google.Conscrypt.Android.*" target="lib/MonoAndroid" />
+    </files>
+</package>
