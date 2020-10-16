@@ -54,12 +54,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\conscrypt-android.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Conscrypt.Conscrypt.Android">
-      <Version>2.2.1</Version>
-    </PackageReference>
+    <LibraryProjectZip Include="Jars\conscrypt-android.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
