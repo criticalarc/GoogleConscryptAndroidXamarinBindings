@@ -3,7 +3,4 @@
     <TargetFramework>net6.0-android31</TargetFramework>
     <SupportedOSPlatformVersion>23</SupportedOSPlatformVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Properties" />
-  </ItemGroup>
 </Project>
